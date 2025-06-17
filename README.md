@@ -23,13 +23,7 @@ This project uses MATLAB's **Optimization Toolbox** to simulate and estimate the
 - `pol2cart` and `cart2sph` for coordinate transformations.
 - 3D plotting and animation for trajectory visualization.
 
-## 📁 Files
-
-- `simulate_drone.m` — Simulates the drone trajectory and transmitter positions.
-- `estimate_position_fsolve.m` — Computes positions with `fsolve`.
-- `estimate_position_lsqnonlin.m` — Computes positions with `lsqnonlin` for noisy data.
-- `animate_trajectory.m` — Visualizes the drone and transmitter motion.
-- `README.md` — This file.
+All the processing is done in a single file.
 
 ## ✅ How to Use
 
